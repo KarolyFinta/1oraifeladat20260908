@@ -1,0 +1,15 @@
+ *{
+    box-sizing: border-box;
+    text-align: center;
+ }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tarolo {
+    margin: 10px;
+    min-width: 50px;
+    border: 1px solid orange;
+}
