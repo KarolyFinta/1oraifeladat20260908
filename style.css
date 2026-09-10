@@ -11,5 +11,12 @@ main {
 .tarolo {
     margin: 10px;
     min-width: 50px;
-    border: 1px solid orange;
+    border: 2px solid orange;
+    background-color: rgba(255, 166, 0, 0.075);
+}
+
+@media screen and (max-width:750px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 }
